@@ -1,0 +1,32 @@
+{
+  "name": "movie-search",
+  "version": "1.0.0",
+  "description": "An movie search app using React, Redux and styled-components",
+  "main": "client",
+  "scripts": {
+    "start": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvc/movie-search.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "styled-components",
+    "movie",
+    "search"
+  ],
+  "author": "Elvis Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elvc/movie-search/issues"
+  },
+  "homepage": "https://github.com/elvc/movie-search#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "express": "^4.16.4"
+  }
+}
