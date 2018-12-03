@@ -4,7 +4,7 @@
 
 We have a huge movie collection but is too extensive for any human to scan through manually.
 
-This single page app is to search and filter through the movie catalog with the following features, using React and Redux.
+This single page app is to search and filter through the movie catalog with the following features, using React and Redux. We are using some fake data in the JSON file but for project demostration purpose it's all good.
 
 #### Features
 
