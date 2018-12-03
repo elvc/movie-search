@@ -1,7 +1,7 @@
 const app = require('express')();
 const cors = require('cors');
 const server = require('http').Server(app);
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 const SERVER_DIR = __dirname;
 const CLIENT_DIR = `${SERVER_DIR}/../client`;
@@ -9,7 +9,7 @@ const CLIENT_DIR = `${SERVER_DIR}/../client`;
 app.use(
   '*',
   cors({
-    origin: 'http://localhost:3001',
+    origin: 'http://localhost:3000',
   }),
 );
 
